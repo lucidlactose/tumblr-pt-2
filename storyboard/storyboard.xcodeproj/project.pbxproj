@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		2B56C19D233BDCD5007586E4 /* storyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B56C19C233BDCD5007586E4 /* storyboardUITests.swift */; };
 		2B56C1AF233BDDDF007586E4 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B56C1AE233BDDDF007586E4 /* PhotoViewController.swift */; };
 		2B56C1B1233BDE10007586E4 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B56C1B0233BDE10007586E4 /* PhotoCell.swift */; };
+		2BED14CC233C2D8900A45ACE /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BED14CB233C2D8900A45ACE /* PhotoDetailsViewController.swift */; };
 		6695B698A1649D7FAF323C8D /* Pods_storyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35E08876541806B726E5BD0 /* Pods_storyboard.framework */; };
 		6F5A25C0A713905027A9F2B1 /* Pods_storyboardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B14531F2B16F0D89B5F4A82 /* Pods_storyboardTests.framework */; };
 		80F7B05B34141E7207FD0427 /* Pods_storyboard_storyboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5506E19644059DE25700D434 /* Pods_storyboard_storyboardUITests.framework */; };
@@ -56,6 +57,7 @@
 		2B56C19E233BDCD5007586E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B56C1AE233BDDDF007586E4 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		2B56C1B0233BDE10007586E4 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		2BED14CB233C2D8900A45ACE /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		2FAAFC27D91E1919C603CC85 /* Pods-storyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-storyboard.release.xcconfig"; path = "Target Support Files/Pods-storyboard/Pods-storyboard.release.xcconfig"; sourceTree = "<group>"; };
 		4B14531F2B16F0D89B5F4A82 /* Pods_storyboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_storyboardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5506E19644059DE25700D434 /* Pods_storyboard_storyboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_storyboard_storyboardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,15 +122,16 @@
 		2B56C179233BDCD4007586E4 /* storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				2B56C1AE233BDDDF007586E4 /* PhotoViewController.swift */,
-				2B56C1B0233BDE10007586E4 /* PhotoCell.swift */,
 				2B56C17A233BDCD4007586E4 /* AppDelegate.swift */,
 				2B56C17C233BDCD4007586E4 /* SceneDelegate.swift */,
 				2B56C17E233BDCD4007586E4 /* ViewController.swift */,
 				2B56C180233BDCD4007586E4 /* Main.storyboard */,
-				2B56C183233BDCD5007586E4 /* Assets.xcassets */,
 				2B56C185233BDCD5007586E4 /* LaunchScreen.storyboard */,
+				2B56C183233BDCD5007586E4 /* Assets.xcassets */,
 				2B56C188233BDCD5007586E4 /* Info.plist */,
+				2B56C1B0233BDE10007586E4 /* PhotoCell.swift */,
+				2B56C1AE233BDDDF007586E4 /* PhotoViewController.swift */,
+				2BED14CB233C2D8900A45ACE /* PhotoDetailsViewController.swift */,
 			);
 			path = storyboard;
 			sourceTree = "<group>";
@@ -161,7 +164,6 @@
 				823BF86380ACB3606D569929 /* Pods-storyboardTests.debug.xcconfig */,
 				F4A2593F1022DCC1ADB66CAE /* Pods-storyboardTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -416,6 +418,7 @@
 			files = (
 				2B56C17F233BDCD4007586E4 /* ViewController.swift in Sources */,
 				2B56C1B1233BDE10007586E4 /* PhotoCell.swift in Sources */,
+				2BED14CC233C2D8900A45ACE /* PhotoDetailsViewController.swift in Sources */,
 				2B56C1AF233BDDDF007586E4 /* PhotoViewController.swift in Sources */,
 				2B56C17B233BDCD4007586E4 /* AppDelegate.swift in Sources */,
 				2B56C17D233BDCD4007586E4 /* SceneDelegate.swift in Sources */,
