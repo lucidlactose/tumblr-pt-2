@@ -1,6 +1,0 @@
-framework module Pods_storyboard_storyboardUITests {
-  umbrella header "Pods-storyboard-storyboardUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
